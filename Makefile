@@ -1,4 +1,4 @@
-.PHONY: build build\run run stop clean test-contract test test-mutation-diff test-mutation
+.PHONY: build build\run run stop clean test-contract test test-mutation-diff test-mutation release
 # serverest 
 
 NAME_IMAGE=serverest
@@ -29,3 +29,6 @@ test-mutation-diff:
 
 test-mutation:
 	@docker-compose run --rm test-mutation
+
+release:
+	@docker-compose run --rm release

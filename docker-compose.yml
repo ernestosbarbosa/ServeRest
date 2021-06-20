@@ -39,3 +39,14 @@ services:
     environment:
       - STRYKER_DASHBOARD_API_KEY
     command: npm run test:mutation:diff
+
+  release:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.test
+    environment:
+      - GITHUB_TOKEN
+      - NPM_TOKEN
+      - DOCKER_USERNAME
+      - DOCKER_PASSWORD
+    command: npx semantic-release
