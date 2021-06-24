@@ -21,6 +21,8 @@ services:
       - PACT_BROKER_BASE_URL
       - GITHUB_ACTIONS
     command: npm run test:contract
+    volumes:
+      - ./.git:/app/.git
 
   test:
     extends: base

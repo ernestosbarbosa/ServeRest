@@ -1,10 +1,13 @@
 .github
 .nyc_output
+
 dist/
 test/
 reports/
+node_modules/
+coverage/
+
 CHANGELOG.md
 .stryker-tmp
 stryker.log
 coverage.lcov
-node_modules/
