@@ -13,7 +13,7 @@
 			"pattern": "https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional"
 		},
 		{
-			"pattern": "http://localhost:3000"
+			"pattern": "http://serverest-api.herokuapp.com"
 		}
 	],
 	"aliveStatusCodes": [200, 401, 403]

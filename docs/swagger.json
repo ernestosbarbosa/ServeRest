@@ -10,7 +10,7 @@
       "email": "paulorochag@hotmail.com"
     }
   },
-  "host": "localhost:3000",
+  "host": "serverest-api.herokuapp.com",
   "tags": [
     {
       "name": "Login",
