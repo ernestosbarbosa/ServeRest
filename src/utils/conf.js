@@ -1,7 +1,7 @@
 'use strict'
 
 const conf = {
-  porta: 3000,
+  porta: process.env.PORT || 3000,
   tokenTimeout: 600
 }
 
